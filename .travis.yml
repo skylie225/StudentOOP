@@ -4,7 +4,7 @@ compiler:
   - clang
 
 script:
-  - make tests
+  - make -d tests
 
 
 notifications:
