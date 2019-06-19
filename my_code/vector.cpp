@@ -92,6 +92,8 @@ int MyVec::operator[](int i) const {
 	return data[i];
 }
 
+
+
 /*
  * this [] allows write access to items in the MyVec:
  * It returns a reference to the i-th element.
