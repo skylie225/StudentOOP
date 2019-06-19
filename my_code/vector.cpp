@@ -62,8 +62,7 @@ bool operator==(MyVec& v1, MyVec& v2) {
  * */
 void MyVec::push_back(int val) {
 	if (sz == capacity) {
-		cout << "Increasing capacity" << endl;
-			// get new array of capacity*2
+			// increase capacity*2
 
 			capacity *= 2;
 			int* new_data = new int[capacity];
@@ -78,7 +77,7 @@ void MyVec::push_back(int val) {
 
 		delete[] data;
 
-		// set pointer to new array
+		// set pointer to a new array
 
 		data = new_data;
 	}
